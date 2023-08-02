@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import { PostContainer } from './components/PostContainer';
 
 function App() {
 
@@ -25,12 +26,11 @@ function App() {
   return (
     <div style={{  display: 'flex', alignItems: 'center',
       justifyContent: 'center'}}>
-      <div class="col">
+      <div style={{marginTop:"50px", justifyContent: 'center'}}>
+        <input type="text"/>
+
         {data.map((item) => (
-          <div key={item.id}>
-            {item.title} <br/>
-            {item.body} <br/><br/>
-          </div>
+          <PostContainer key={item.id} title={item.title} body={item.body}/>
         ))}
       </div>
     </div>
