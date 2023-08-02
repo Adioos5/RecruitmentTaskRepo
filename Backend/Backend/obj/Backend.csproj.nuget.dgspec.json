@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adria\\source\\repos\\Backend\\Backend\\Backend.csproj": {}
+    "C:\\Users\\adria\\Desktop\\RecruitmentTask\\RecruitmentTaskRepo\\Backend\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adria\\source\\repos\\Backend\\Backend\\Backend.csproj": {
+    "C:\\Users\\adria\\Desktop\\RecruitmentTask\\RecruitmentTaskRepo\\Backend\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adria\\source\\repos\\Backend\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\Desktop\\RecruitmentTask\\RecruitmentTaskRepo\\Backend\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\adria\\source\\repos\\Backend\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\adria\\Desktop\\RecruitmentTask\\RecruitmentTaskRepo\\Backend\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adria\\source\\repos\\Backend\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\adria\\Desktop\\RecruitmentTask\\RecruitmentTaskRepo\\Backend\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
