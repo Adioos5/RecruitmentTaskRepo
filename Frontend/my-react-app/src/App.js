@@ -26,7 +26,7 @@ function App() {
   return (
     <div style={{  display: 'flex', alignItems: 'center',
       justifyContent: 'center'}}>
-      <div style={{marginTop:"50px", justifyContent: 'center'}}>
+      <div style={{marginTop:"50px"}}>
         <input type="text"/>
 
         {data.map((item) => (
