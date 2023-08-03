@@ -12,7 +12,6 @@ export function PostContainer(props) {
 
 const Borders = styled.div`
     margin: 20px;
-    width: 80%;
     padding: 20px;
     background-color: #ff7070;
     border-radius: 10px;

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import { PostContainer } from './components/PostContainer';
+import logo from './myLogo.png'
 
 function App() {
 
@@ -36,12 +37,13 @@ function App() {
   };
 
   return (
-    <div style={{marginTop:"50px"}}>
-      <label>
+    <div class="container" style={{marginTop:"50px", backgroundColor: "#ff4c4c"}}>
+      <img src={logo} width="200px" height="200px"/>
+      <label style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
         Text Input:
-        <input type="text" value={textInput} onChange={handleInputChange} />
+        <input type="text" value={textInput} onChange={handleInputChange} style={{marginLeft:"20px", marginRight:"20px"}}/>
+        <button type="submit" onClick={handleSubmit}>Submit</button>
       </label>
-      <button type="submit" onClick={handleSubmit}>Submit</button>
       {data.map((item) => (
         <PostContainer key={item.id} title={item.title} body={item.body}/>
       ))}
