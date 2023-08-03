@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Backend;
+using Backend.Services;
 
 public class Program
 {
@@ -50,9 +51,14 @@ public class Program
                                    .AllowAnyMethod();
                         });
                     });
+                    services.AddHttpClient<APIService>(client =>
+                    {
+                        client.BaseAddress = new Uri("https://jsonplaceholder.typicode.com/posts/"); // Replace with your actual API base URL
+                    });
                 });
                 webBuilder.Configure(app =>
                 {
+
                     app.UseRouting();
 
                     app.UseCors();

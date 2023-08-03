@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VVQhSury8RATAh8/2I16afRHAcMg3IWVFRdcIDH74qo1bIEZQ88Uk7oa0Qmi1DTyj8qMfJ9dayEUZODpi7/Bqw==",
+  "dgSpecHash": "UYY6bayfc3o0isgnnYnYV1WE7Yv6iX74eHFP9TCPs06xH2qUop2QWOKroGnR9jsfiiLF3rPRXJU+M8Nl6IL/Og==",
   "success": true,
   "projectFilePath": "C:\\Users\\adria\\Desktop\\RecruitmentTask\\RecruitmentTaskRepo\\Backend\\Backend\\Backend.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\adria\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\adria\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
