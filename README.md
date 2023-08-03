@@ -1,2 +1,2 @@
 # RecruitmentTaskRepo
-My solution for recruitment task in the area of Web Development from ERGO Technology & Services :)
+My solution to the recruitment task in the area of ​​Web Development from ERGO Technology & Services :)
