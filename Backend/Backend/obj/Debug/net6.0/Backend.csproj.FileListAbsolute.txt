@@ -70,3 +70,4 @@ C:\Users\adria\Desktop\RecruitmentTask\RecruitmentTaskRepo\Backend\Backend\obj\D
 C:\Users\adria\Desktop\RecruitmentTask\RecruitmentTaskRepo\Backend\Backend\obj\Debug\net6.0\Backend.pdb
 C:\Users\adria\Desktop\RecruitmentTask\RecruitmentTaskRepo\Backend\Backend\obj\Debug\net6.0\Backend.genruntimeconfig.cache
 C:\Users\adria\Desktop\RecruitmentTask\RecruitmentTaskRepo\Backend\Backend\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\adria\Desktop\RecruitmentTask\RecruitmentTaskRepo\Backend\Backend\bin\Debug\net6.0\posts.db

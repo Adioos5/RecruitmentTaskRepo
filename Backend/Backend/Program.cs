@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Backend;
 using Backend.Services;
+using Microsoft.Data.Sqlite;
 
 public class Program
 {
@@ -31,10 +32,17 @@ public class Program
         host.Run();
     }
 
+
+
     public static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
             .ConfigureWebHostDefaults(webBuilder =>
             {
+                string xd = Directory.GetCurrentDirectory();
+                string executable = System.Reflection.Assembly.GetExecutingAssembly().Location;
+                string path = (Path.GetDirectoryName(executable));
+                AppDomain.CurrentDomain.SetData("DataDirectory", path);
+
                 webBuilder.UseStartup<Program>();
                 webBuilder.ConfigureServices((hostContext, services) =>
                 {
